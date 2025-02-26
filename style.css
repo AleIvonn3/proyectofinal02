@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kaushan Script", serif;
+    font-family: "Lugrasimo", serif;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ca2887;
+}
+
+header {
+    background-color: #100d11;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
