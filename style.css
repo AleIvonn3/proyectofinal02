@@ -37,10 +37,11 @@ footer {
     padding: 2rem;
 }
 
-/*Imagen Menu*/
+/*Menu*/
 .navlinks ul {
     display: flex;
     gap: 2rem;
+    justify-content: space-between;
 }
 
 .navlinks ul li {
