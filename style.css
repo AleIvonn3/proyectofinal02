@@ -113,19 +113,21 @@ footer {
 }
 
 /*footer*/
-.footer-links {
+.footerlinks {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 5rem;
     align-items: center;
+    
 }
-.footer-links img {
+.footerlinks img {
     width: 2rem;
     border-radius: 100%;
+    
 }
 
 /*mensaje icono*/
-.fixed-icon{
+.fixedicon{
     background-color: #ca2887;
     width: 4rem;
     padding: .1rem;
@@ -136,7 +138,7 @@ footer {
     z-index: 1000;
 }
 
-.fixed-icon img{
+.fixedicon img{
     filter: invert(0);
     width: 100%;
 }
