@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Kaushan Script", serif;
-    font-family: "Lugrasimo", serif;
     list-style: none;
 }
 
@@ -24,3 +23,114 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+main {
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+footer {
+    background-color: #100d11;
+    display: flex;
+    padding: 2rem;
+}
+
+/*Imagen Menu*/
+.navlinks ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.navlinks ul li {
+    font-size: 1.2rem;
+    transition:all 0.2s;
+}
+
+.navlinks ul li:hover {
+    text-decoration: underline #e7e7e2 3px;
+    transform: scale(1.1);
+}
+
+/*Logo*/
+.logocontainer {
+    width: 10rem;
+}
+
+.logocontainer img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+/*imagen menu*/
+.navbutton{
+    display: none;
+    }
+
+.navbutton img {
+    width: 100%;
+}
+
+/*Imagenes*/
+.homecontainer {
+    font-family: "Lugrasimo", serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardcontainer {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.card {
+    width: 100%;
+    background-color: #6d5a72;
+    border-radius: 10px;
+    display: flex;
+}
+
+.cardimagecontainer {
+    flex: 1;
+}
+
+.cardimagecontainer img {
+    width: 25rem;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+}
+
+.cardinfocontainer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cardinfocontainer button {
+    border: none;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    align-self: flex-end;
+    margin: 3rem 0 0 0;
+}
+
+/*footer*/
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+.footer-links img {
+    width: 2rem;
+    border-radius: 100%;
+}
+
+
