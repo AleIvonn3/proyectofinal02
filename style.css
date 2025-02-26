@@ -79,6 +79,7 @@ footer {
     justify-content: space-between;
 }
 
+/*Espaciado*/
 .cardcontainer {
     display: flex;
     gap: 2rem;
@@ -86,21 +87,21 @@ footer {
 }
 
 .card {
-    width: 50%;
+    width: 24.4%;
     background-color: #6d5a72;
     border-radius: 10px;
     display: flex;
-
-}
+    flex-wrap:wrap;
+    }
 
 .cardimagecontainer {
     flex: 1;
 }
 
 .cardimagecontainer img {
-    width: 10rem;
+    width: 15rem;
     height: 100%;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 10px 10px 10px;
     overflow: hidden;
 }
 
@@ -121,6 +122,23 @@ footer {
 .footer-links img {
     width: 2rem;
     border-radius: 100%;
+}
+
+/*mensaje icono*/
+.fixed-icon{
+    background-color: #ca2887;
+    width: 4rem;
+    padding: .1rem;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 0.5rem;
+    right: 1rem;
+    z-index: 1000;
+}
+
+.fixed-icon img{
+    filter: invert(0);
+    width: 100%;
 }
 
 
