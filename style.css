@@ -97,6 +97,7 @@ footer {
 
 .cardimagecontainer {
   flex: 1;
+  display: flex;
 }
 
 .cardimagecontainer img {
