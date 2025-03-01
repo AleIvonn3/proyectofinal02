@@ -209,7 +209,18 @@ footer {
   .footerlinks img {
     width: 2.5rem;
   }
+
+  .fixedicon {
+    display: none;
+  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 375px) {
+  .footerlinks img {
+    width: 1.5rem;
+  }
+
+  .fixedicon {
+    display: none;
+  }
 }
