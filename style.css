@@ -41,7 +41,7 @@ footer {
 /*Menu*/
 .navlinks ul {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .navlinks ul li {
@@ -141,4 +141,18 @@ footer {
 .fixedicon img {
   filter: invert(0);
   width: 100%;
+}
+
+/*Responsive*/
+@media (max-width: 1060px) {
+  main {
+    padding: 1rem;
+  }
+
+  .card {
+    width: 30%;
+  }
+}
+
+@media (max-width: 950px) {
 }
