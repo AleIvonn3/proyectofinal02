@@ -167,7 +167,7 @@ footer {
 
 @media (max-width: 880px) {
   .card {
-    width: 35%;
+    width: 40%;
   }
 
   /*Espaciado entre tarjetas*/
@@ -175,4 +175,41 @@ footer {
     display: flex;
     justify-content: space-evenly;
   }
+}
+
+@media (max-width: 664px) {
+  header {
+    padding: 1rem;
+  }
+
+  .logocontainer img {
+    width: 80%;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .cardcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-content: center;
+  }
+
+  .navbutton {
+    display: block;
+    width: 3rem;
+  }
+
+  .footerlinks {
+    gap: 3rem;
+  }
+
+  .footerlinks img {
+    width: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
 }
