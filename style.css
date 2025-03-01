@@ -66,6 +66,7 @@ footer {
 /*imagen menu*/
 .navbutton {
   display: none;
+  filter: invert(1);
 }
 
 .navbutton img {
@@ -155,4 +156,12 @@ footer {
 }
 
 @media (max-width: 950px) {
+  .navlinks {
+    display: none;
+  }
+
+  .navbutton {
+    display: block;
+    width: 3.5rem;
+  }
 }
