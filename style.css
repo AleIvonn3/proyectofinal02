@@ -88,7 +88,6 @@ footer {
   justify-content: space-between;
 }
 
-/*Imagenes*/
 .card {
   width: 24.4%;
   background-color: #6d5a72;
@@ -163,5 +162,17 @@ footer {
   .navbutton {
     display: block;
     width: 3.5rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .card {
+    width: 35%;
+  }
+
+  /*Espaciado entre tarjetas*/
+  .cardcontainer {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
